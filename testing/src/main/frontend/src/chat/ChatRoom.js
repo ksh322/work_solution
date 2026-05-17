@@ -47,7 +47,8 @@ const ChatRoom = (props) => {
     }, [publicChats]);
 
     const connect =()=>{
-        let Sock = new SockJS('http://localhost:8080/ws');
+        const wsUrl = process.env.REACT_APP_WS_URL || 'http://localhost:8080';
+        let Sock = new SockJS(`${wsUrl}/ws`);
         stompClient = over(Sock);
         stompClient.connect({},onConnected, onError);
     }

@@ -50,14 +50,12 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-def frontendDir = "C:\\CapstoneProject_WorkSolution\\testing\\src\\main\\frontend"
+def frontendDir = "$projectDir/src/main/frontend"
 
 sourceSets {
 	main {
 		resources {
-			srcDirs = ["C:\\CapstoneProject_WorkSolution\\testing\\src\\main\\resources"]
-
-
+			srcDirs = ["$projectDir/src/main/resources"]
 		}
 	}
 }

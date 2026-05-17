@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/capstone?serverTimezone=UTC&useLegacyDatetimeCode=false
-    username: capstone
-    password: tjdgus1603!
+    url: ${DATABASE_URL:jdbc:mysql://127.0.0.1:3306/capstone?serverTimezone=UTC&useLegacyDatetimeCode=false}
+    username: ${DATABASE_USERNAME:capstone}
+    password: ${DATABASE_PASSWORD:tjdgus1603!}
 
   security:
     jwt:
