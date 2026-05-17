@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5fa6168c.css",
+    "main.js": "/static/js/main.7dcaf7ac.js",
+    "static/media/watermelonsalad.ttf": "/static/media/watermelonsalad.4340d3812e1fd1ac61d8.ttf",
+    "static/media/sales.jpg": "/static/media/sales.7355c7d21f6cb5132402.jpg",
+    "static/media/verification.png": "/static/media/verification.4d646fae9b5bb6a56a9d.png",
+    "static/media/NewJeans.jpg": "/static/media/NewJeans.90bb07ebf9f43666df7e.jpg",
+    "static/media/coming-soon.svg": "/static/media/coming-soon.58c6b5609d4ed2664ac21ba33d2fe679.svg",
+    "static/media/dongguk.jpg": "/static/media/dongguk.873b57f834273c23b2ff.jpg",
+    "static/media/profit.jpg": "/static/media/profit.01cbbfec2a5992e4dbb0.jpg",
+    "index.html": "/index.html",
+    "main.5fa6168c.css.map": "/static/css/main.5fa6168c.css.map",
+    "main.7dcaf7ac.js.map": "/static/js/main.7dcaf7ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fa6168c.css",
+    "static/js/main.7dcaf7ac.js"
+  ]
+}
